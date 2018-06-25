@@ -7,22 +7,102 @@
     android:background="#fff"
     tools:context=".Main">
 
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="  CHOOSE YOUR FAVOURITE TOPIC"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:fontFamily="serif-monospace"/>
     <ImageView
         android:id="@+id/comp"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_alignParentTop="true"
+        android:layout_width="177dp"
+        android:layout_height="163dp"
+        android:layout_alignParentLeft="@+id/gk"
+        android:layout_alignTop="@+id/gk"
         android:paddingTop="20dp"
         android:src="@drawable/comps" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Computer Science Qeustions"
-        android:textColor="#000" />
+        android:layout_width="148dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/gktext"
+        android:fontFamily="serif-monospace"
+        android:text="    CS Qeustions"
+        android:textColor="#000000" />
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true" />
+        android:layout_width="164dp"
+        android:layout_height="171dp"
+        android:layout_alignEnd="@+id/comp"
+        android:layout_alignRight="@+id/comp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/eng" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="34dp"
+        android:text="    English Questions"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"/>
+
+    <ImageView
+        android:id="@+id/gk"
+        android:layout_width="165dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/gk" />
+
+    <TextView
+        android:id="@+id/gktext"
+        android:layout_width="159dp"
+        android:layout_height="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/gk"
+        android:layout_alignLeft="@+id/gk"
+        android:layout_marginTop="262dp"
+        android:text="General Questions"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"/>
+
+    <ImageView
+        android:id="@+id/math"
+        android:layout_width="145dp"
+        android:layout_height="158dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/math" />
+
+    <TextView
+        android:layout_width="126dp"
+        android:layout_height="57dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:text="Math Questions"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"/>
 
 </RelativeLayout>
